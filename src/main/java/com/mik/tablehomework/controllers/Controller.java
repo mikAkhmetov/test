@@ -44,6 +44,7 @@ public class Controller {
     void initialize() throws IOException {
         TableColumn<User, Boolean> sendCol = new TableColumn<>("Send");
         sendCol.setCellValueFactory(new PropertyValueFactory<>("send"));
+        System.out.println();
 
         TableColumn<User, Integer> idCol = new TableColumn<>("ID");
         idCol.setCellValueFactory(new PropertyValueFactory<>("id"));
