@@ -94,13 +94,5 @@
     "email": "fatima.hassan@example.com",
     "age": 27,
     "country": "Egypt"
-  },
-  {
-    "id": 13,
-    "name": "Lucas Garcia",
-    "registerTime": "14-10-2025:07:40:20",
-    "email": "lucas.garcia@example.com",
-    "age": 29,
-    "country": "Spain"
   }
 ]
