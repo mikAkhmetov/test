@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mik.tablehomework.controllers.Controller">
+    <children>
+        <MenuBar layoutY="2.0">
+            <menus>
+                <Menu mnemonicParsing="false" onAction="#menuButtonOpen" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Open" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <TableView fx:id="tableViewer" layoutY="27.0" prefHeight="473.0" prefWidth="900.0">
+            <columns>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
